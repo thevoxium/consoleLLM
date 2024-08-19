@@ -15,6 +15,7 @@ setup(
         'openai==1.41.0',
         'rich==13.7.1',
         'toml==0.10.2',
+        'PyPDF2==3.0.1',
     ],
     classifiers=[                      
         "Programming Language :: Python :: 3",
