@@ -5,6 +5,7 @@ import toml
 def create_config():
     curr_dir = os.getcwd()
     print(f"Current working directory: {curr_dir}")
+    curr_dir += "/consolellmconfig"
     config_path = curr_dir+"/.config/config.toml"
 
     if not os.path.exists(curr_dir+"/.config"):
