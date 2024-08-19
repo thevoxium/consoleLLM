@@ -5,6 +5,7 @@ Access Llama 3.1 405B model from your console
 ```bash
 https://github.com/thevoxium/consoleLLM.git
 pip install -r requirements.txt
+cd consolellm
 python3 run app.py
 ```
 
