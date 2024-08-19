@@ -7,7 +7,11 @@ from rich.style import Style
 import markdown2
 import time
 import toml
-from consolellm.config import create_config
+
+try:
+    from consolellm.config import create_config
+except ImportError:
+    from config import create_config
 
 api_key, system_prompt = create_config()
 
