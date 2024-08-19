@@ -1,2 +1,5 @@
-.config
 __pycache__
+build
+dist
+consolellm.egg-info
+consolellm/.config
